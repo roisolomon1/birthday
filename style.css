@@ -1,0 +1,54 @@
+body{
+    background-image: linear-gradient(to left,lightgreen,lightblue);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+input{
+    width: 150px;
+}
+form{
+     margin-top: 10%;
+    
+}
+    
+#firstdiv{
+    background-color: lightgrey;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 60%;
+    height: 90%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  
+}
+#order{
+    background-color: red;
+    border: 2px solid;
+    padding: 10px;
+    
+   
+}
+
+#link{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 15px;
+}
+
+
+@keyframes myanimation {
+ from{background-image: linear-gradient( to right,lightblue,lightgreen);}
+ to{background-image: linear-gradient(to left,lightblue,lightgreen);}
+ 
+    
+}
+.buttons{
+    width: 60px;
+    text-align: center;
+}

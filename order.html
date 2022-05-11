@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>to order submit your details</h1>
+  <form id="form1" action="afterorder.html">
+    <input required type="text" id="first_name" placeholder="First name" ><br><br>
+    <input required type="text" id="last_name" placeholder="Last name" ><br><br>
+    <input required type="tel" id="telephone" placeholder="Telephone" ><br><br>
+    <input required type="email" id="email" placeholder="email" ><br><br>
+    <input required type="number" min="1" max="20" id="quantity" placeholder="quantity" ><br><br>
+    <input required type="number" min="18" max="99" placeholder="age"><br><br>
+    <label  for="gender">Gender:</label>
+    <select required name="gender_options" id="gender">
+        <option value="evyatar">Evyatar</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select><br><br>
+    
+    <button class="buttons" id="reset_button">reset</button>
+    <button class="buttons" onclick="myfunction()" id="submit_button">submit</button>
+</form> 
+
+
+ 
+    
+    <script src="index.js"></script>
+</body>
+</html>
